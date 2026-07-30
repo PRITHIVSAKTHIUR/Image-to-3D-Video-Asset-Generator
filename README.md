@@ -1,4 +1,4 @@
-# **Image-to-3D-Video-Asset-Generator**
+# **[Image-to-3D-Video-Asset-Generator](https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator)**
 
 Image-to-3D-Video-Asset-Generator is an all-in-one generative 3D pipeline that transitions smoothly from textual concepts or reference images into fully realized 3D mesh assets (`.glb`), dynamic camera movements in 5-second MP4 videos, and clean bundle exports (`.zip`).
 
