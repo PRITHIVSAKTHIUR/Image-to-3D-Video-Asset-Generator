@@ -4,6 +4,8 @@ Image-to-3D-Video-Asset-Generator is an all-in-one generative 3D pipeline that t
 
 Powered by **TRELLIS.2-4B** for high-fidelity 3D structural reconstruction and **Z-Image-Turbo** for rapid initial concept generation, the application includes custom PBR baking, mesh decimation, Rerun 3D visualization, and automated offscreen video rendering via PyRender (with a Matplotlib fallback).
 
+https://github.com/user-attachments/assets/d4038398-a2fd-41bf-b70f-bfcb226307d1
+
 ### **Key Features**
 
 * **Cascaded Generative Pipeline:** Unifies Text-to-Image (`Z-Image-Turbo`), Image-to-3D (`TRELLIS.2-4B`), 3D-to-Video camera moves, and single-click ZIP asset bundling.
