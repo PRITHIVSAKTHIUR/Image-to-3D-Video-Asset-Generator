@@ -75,14 +75,32 @@ pip install -r requirements.txt
 
 ### **Core Requirements (`requirements.txt`)**
 
-```text
+```
 --extra-index-url https://download.pytorch.org/whl/cu130
 -f https://whl.natten.org
 
 torch==2.11.0
 torchvision==0.26.0
 triton==3.6.0
+pillow==12.0.0
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+tqdm==4.67.1
+easydict==1.13
+opencv-python-headless==4.12.0.88
+trimesh==5.0.0
+transformers==4.57.3
+zstandard==0.25.0
+kornia==0.8.2
+timm==1.0.22
+diffusers==0.37.1
+accelerate==1.13.0
+einops==0.8.2
+plyfile==1.1.3
+git+https://github.com/microsoft/MoGe.git@07444410f1e33f402353b99d6ccd26bd31e469e8
+spaces>=0.51.1
 
+natten==0.21.6+torch2110cu130
 flash_attn @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator/resolve/main/flash_attention_2/flash_attn-2.8.3%2Bcu13torch2.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl
 cumesh @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator/resolve/main/rtx_pro_6000_prebuild_wheels/cumesh-0.0.1%2Btorch2.11.0.cu130-cp312-cp312-linux_x86_64.whl
 flex_gemm @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator/resolve/main/rtx_pro_6000_prebuild_wheels/flex_gemm-1.0.0%2Btorch2.11.0.cu130-cp312-cp312-linux_x86_64.whl
@@ -90,43 +108,18 @@ nvdiffrast @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset
 nvdiffrec_render @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator/resolve/main/rtx_pro_6000_prebuild_wheels/nvdiffrec_render-0.0.0%2Btorch2.11.0.cu130-cp312-cp312-linux_x86_64.whl
 o_voxel @ https://huggingface.co/spaces/prithivMLmods/Image-to-3D-Video-Asset-Generator/resolve/main/rtx_pro_6000_prebuild_wheels/o_voxel-0.0.1%2Btorch2.11.0.cu130-cp312-cp312-linux_x86_64.whl
 
-natten==0.21.6+torch2110cu130
-
-pillow==12.0.0
-imageio==2.37.2
-imageio-ffmpeg==0.6.0
-opencv-python-headless==4.12.0.88
-trimesh==4.10.1
-plyfile==1.1.3
-pyrender
-
-transformers==4.57.3
-diffusers==0.37.1
-accelerate==1.13.0
-huggingface-hub
-spaces
-gradio==6.14.0
-gradio_rerun
-
-timm==1.0.22
-kornia==0.8.2
-einops==0.8.2
-jaxtyping
-monopriors
-
-scipy
-jax
-zstandard==0.25.0
-tqdm==4.67.1
-easydict==1.13
 omegaconf
 termcolor
+icecream
 pyserde
-braceexpand
+gradio==6.14.0
 rerun-sdk
-
-git+https://github.com/microsoft/MoGe.git
-
+gradio_rerun
+scipy
+jax
+jaxtyping
+monopriors
+braceexpand
 ```
 
 ---
